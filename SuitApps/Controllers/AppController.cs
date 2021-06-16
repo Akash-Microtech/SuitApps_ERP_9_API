@@ -56,5 +56,48 @@ namespace SuitApps.Controllers
 
         }
         #endregion
+
+
+        #region Bank
+        [HttpGet]
+        [ActionName("GetGroupMasterPopup")]
+        public BankList GetGroupMasterPopup()
+        {
+            return BankRepository.GetGroupMasterPopup();
+        }
+
+
+
+        [HttpGet]
+        [ActionName("GetBankDetailes")]
+        public BankList GetBankDetailes()
+        {
+            return BankRepository.GetBankDetailes();
+        }
+
+
+        [HttpGet]
+        [ActionName("GetBankDetailesById")]
+        public BankList GetBankDetailesById(int bankid)
+        {
+            return BankRepository.GetBankDetailesById(bankid);
+        }
+
+
+        [HttpPost]
+        [ActionName("InsertUpdateBankAcHead")]
+        public AcHead Post([FromBody]AcHead achead)
+        {
+            return BankRepository.InsertUpdateBankAcHead(achead);
+        }
+
+
+        [HttpPost]
+        [ActionName("DeleteBankAcHeadAcTranc")]
+        public AcHead DeleteBankAcHeadAcTranc([FromBody]AcHead achead1)
+        {
+            return BankRepository.DeleteBankAcHeadAcTranc(achead1);
+        }
+        #endregion
     }
 }
