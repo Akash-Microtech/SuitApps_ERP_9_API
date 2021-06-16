@@ -139,6 +139,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\ModelClass\AcHead.cs" />
+    <Compile Include="Models\ModelClass\Bank.cs" />
+    <Compile Include="Models\ModelClass\BankList.cs" />
     <Compile Include="Models\ModelClass\CompanyInfoList.cs" />
     <Compile Include="Models\ModelClass\CompanyNameList.cs" />
     <Compile Include="Models\ModelClass\DBconnect.cs" />
@@ -153,6 +156,7 @@
     <Compile Include="Models\ModelClass\StateList.cs" />
     <Compile Include="Models\ModelClass\Taluk.cs" />
     <Compile Include="Models\ModelClass\TalukList.cs" />
+    <Compile Include="Models\Repository\BankRepository.cs" />
     <Compile Include="Models\Repository\CompanyinfoRepository.cs" />
     <Compile Include="Models\Repository\LoginRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
