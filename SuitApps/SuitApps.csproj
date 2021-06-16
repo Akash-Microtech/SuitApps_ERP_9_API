@@ -221,6 +221,9 @@
     <None Include="Properties\PublishProfiles\apisuitapperp - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\apisuitapperp - ReadOnly - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\apisuitapperp - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\SuitappApiWeb - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\SuitappApiWeb - ReadOnly - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\SuitappApiWeb - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
